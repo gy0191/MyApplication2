@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF4C0">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="APP CREATER"
+        android:textSize="30sp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/img1"
+        android:src="@drawable/gy"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TableRow>
+        <TextView
+            android:text="NAME : "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="Chun Ga Young"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="UNIVERSITY : "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="H.Y.W.U"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="GRADE : "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="2"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="CLASS : "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="A"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="STUDENT NUMBER : "
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:text="216230011"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="PREVIOUS SCREEN"
+        android:textSize="20sp" />
+
+</TableLayout>
